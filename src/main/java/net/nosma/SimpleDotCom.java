@@ -4,7 +4,7 @@ public class SimpleDotCom {
     int[] locationCells;
     int numOfHits = 0;
 
-    String checkYourself(String userGuess) {
+    public String checkYourself(String userGuess) {
         int guess = Integer.parseInt(userGuess);
         String result = "Мимо";
 
@@ -25,7 +25,7 @@ public class SimpleDotCom {
         return result;
     }
 
-    void setLocationCells(int[] loc) {
-
+    public void setLocationCells(int[] locs) {
+        locationCells = locs;
     }
 }

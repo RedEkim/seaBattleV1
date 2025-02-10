@@ -9,13 +9,13 @@ public class SimpleDotComTestDrive {
         dot.setLocationCells(locations);
 
         String userGuess = "2";
-
         String result = dot.checkYourself(userGuess);
 
         String testResult = "Неудача";
+
         if (result.equals("Попал")) {
             testResult = "Пройден";
         }
-        System.out.println(testResult);
+        //System.out.println(testResult);
     }
 }
