@@ -6,8 +6,7 @@ public class SimpleDotComGame {
     public static void main(String[] args) {
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
-//
-//        System.out.println(helper.getUserInput("Enter your digit!"));
+
         SimpleDotCom theDotCom = new SimpleDotCom();
         int randomNum = (int) (Math.random() * 5);
         int[] locations = {randomNum, randomNum+1, randomNum+2};
